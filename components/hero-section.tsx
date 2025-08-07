@@ -65,8 +65,8 @@ export default function HeroSection() {
                         delayChildren: 0.75,
                       },
                     },
+                    ...transitionVariants,
                   },
-                  ...transitionVariants,
                 }}
                 className="mt-12"
               >
